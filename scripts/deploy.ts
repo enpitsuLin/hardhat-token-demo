@@ -13,7 +13,7 @@ async function main() {
   await WHT.waitForDeployment();
 
   const WHTAddress = await WHT.getAddress()
-  console.log(`FunToken deployed to: ${WHTAddress}`)
+  console.log(`WorkHardToken deployed to: ${WHTAddress}`)
 }
 
 main()
